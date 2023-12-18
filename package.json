@@ -1,6 +1,6 @@
 {
   "name": "metacom",
-  "version": "3.1.2",
+  "version": "3.2.0",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "description": "Communication protocol for Metarhia stack with rpc, events, binary streams, memory and db access",
   "license": "MIT",
@@ -40,7 +40,9 @@
   "files": [
     "dist/",
     "lib/",
-    "metacom.d.ts"
+    "metacom.d.ts",
+    "CHANGELOG.md",
+    "SECURITY.md"
   ],
   "readmeFilename": "README.md",
   "scripts": {
@@ -50,22 +52,22 @@
     "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
   },
   "engines": {
-    "node": "18 || 20"
+    "node": "18 || 20 || 21"
   },
   "dependencies": {
-    "metautil": "^3.15.0",
-    "ws": "^8.14.0"
+    "metautil": "5.0.0",
+    "ws": "^8.15.0"
   },
   "devDependencies": {
-    "@types/node": "^20.5.9",
-    "@types/ws": "^8.5.5",
-    "eslint": "^8.48.0",
-    "eslint-config-metarhia": "^8.2.1",
-    "eslint-config-prettier": "^9.0.0",
+    "@types/node": "^20.10.4",
+    "@types/ws": "^8.5.10",
+    "eslint": "^8.55.0",
+    "eslint-config-metarhia": "^8.2.2",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-prettier": "^5.0.0",
     "metatests": "^0.8.2",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   }
 }
